@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demoapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.hyyercode.spring.demoapp.DemoApplication",
+            "projectName": "demoapp",
+            "args": ""
+        }
+    ]
+}

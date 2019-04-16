@@ -1,0 +1,32 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 15,
+            "database": "mydb",
+            "dialect": "PostgreSQL",
+            "name": "azure postgres",
+            "password": "king1234",
+            "port": 5432,
+            "server": "kingnathanalvm.eastus.cloudapp.azure.com ",
+            "username": "kingnathanal"
+        },
+        {
+            "askForPassword": false,
+            "connectionTimeout": 15,
+            "database": "mydb",
+            "dialect": "PostgreSQL",
+            "name": "post",
+            "password": "king1234",
+            "port": 5432,
+            "server": "http://kingnathanalvm.eastus.cloudapp.azure.com ",
+            "username": "kingnathanal"
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#b52e31",
+        "statusBarItem.hoverBackground": "#d04649",
+        "statusBar.foreground": "#e7e7e7"
+    }
+}
