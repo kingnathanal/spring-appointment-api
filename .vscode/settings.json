@@ -1,3 +1,27 @@
 {
-    "java.dependency.packagePresentation": "hierarchical"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 15,
+            "database": "mydb",
+            "dialect": "PostgreSQL",
+            "name": "azure postgres",
+            "password": "king1234",
+            "port": 5432,
+            "server": "kingnathanalvm.eastus.cloudapp.azure.com ",
+            "username": "kingnathanal"
+        },
+        {
+            "askForPassword": false,
+            "connectionTimeout": 15,
+            "database": "mydb",
+            "dialect": "PostgreSQL",
+            "name": "post",
+            "password": "king1234",
+            "port": 5432,
+            "server": "http://kingnathanalvm.eastus.cloudapp.azure.com ",
+            "username": "kingnathanal"
+        }
+    ]
 }
