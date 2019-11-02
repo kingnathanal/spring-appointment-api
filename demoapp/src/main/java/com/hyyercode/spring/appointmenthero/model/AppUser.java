@@ -1,4 +1,4 @@
-package com.hyyercode.spring.demoapp.model;
+package com.hyyercode.spring.appointmenthero.model;
 
 import java.util.Date;
 import java.util.List;
@@ -24,7 +24,7 @@ import org.springframework.data.annotation.CreatedDate;
 public class AppUser {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(name="firstname")

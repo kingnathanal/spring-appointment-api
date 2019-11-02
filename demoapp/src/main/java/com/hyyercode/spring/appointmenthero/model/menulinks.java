@@ -1,4 +1,4 @@
-package com.hyyercode.spring.demoapp.model;
+package com.hyyercode.spring.appointmenthero.model;
 
 import javax.persistence.*;
 
@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class menulinks {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(name = "menu_name", columnDefinition = "varchar(50)")

@@ -1,4 +1,4 @@
-package com.hyyercode.spring.demoapp;
+package com.hyyercode.spring.appointmenthero;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

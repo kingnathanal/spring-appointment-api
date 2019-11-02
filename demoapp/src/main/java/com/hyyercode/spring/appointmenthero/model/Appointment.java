@@ -1,4 +1,4 @@
-package com.hyyercode.spring.demoapp.model;
+package com.hyyercode.spring.appointmenthero.model;
 
 import java.util.Date;
 
@@ -7,14 +7,13 @@ import javax.persistence.*;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 
 @Entity
 @Table(name="appointment")
 public class Appointment {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(name="appointment_name")

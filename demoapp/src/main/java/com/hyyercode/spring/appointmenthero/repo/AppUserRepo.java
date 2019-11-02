@@ -1,6 +1,6 @@
-package com.hyyercode.spring.demoapp.repo;
+package com.hyyercode.spring.appointmenthero.repo;
 
-import com.hyyercode.spring.demoapp.model.AppUser;
+import com.hyyercode.spring.appointmenthero.model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

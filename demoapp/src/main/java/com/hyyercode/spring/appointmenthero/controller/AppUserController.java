@@ -1,11 +1,10 @@
-package com.hyyercode.spring.demoapp.controller;
+package com.hyyercode.spring.appointmenthero.controller;
 
 import java.util.List;
-import com.hyyercode.spring.demoapp.model.AppUser;
-import com.hyyercode.spring.demoapp.model.AppUserLogin;
-import com.hyyercode.spring.demoapp.model.Appointment;
-import com.hyyercode.spring.demoapp.repo.AppUserLoginRepo;
-import com.hyyercode.spring.demoapp.repo.AppUserRepo;
+import com.hyyercode.spring.appointmenthero.model.AppUser;
+import com.hyyercode.spring.appointmenthero.model.AppUserLogin;
+import com.hyyercode.spring.appointmenthero.model.Appointment;
+import com.hyyercode.spring.appointmenthero.repo.AppUserRepo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;

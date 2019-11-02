@@ -1,4 +1,4 @@
-package com.hyyercode.spring.demoapp.model;
+package com.hyyercode.spring.appointmenthero.model;
 
 import java.util.Date;
 
@@ -12,6 +12,7 @@ import org.springframework.data.annotation.CreatedDate;
 public class AppUserLogin {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String username;
     private String password;
