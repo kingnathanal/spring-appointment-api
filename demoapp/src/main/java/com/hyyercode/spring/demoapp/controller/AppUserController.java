@@ -16,15 +16,16 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "http://localhost:8080")
+//@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin
 @RestController
 public class AppUserController {
 
     @Autowired
     AppUserRepo repo;
 
-    @Autowired
-    AppUserLoginRepo loginRepo;
+    //@Autowired
+    //AppUserLoginRepo loginRepo;
 
     @GetMapping(value="/users")
     public List<AppUser> getAppUsers() {
@@ -40,6 +41,8 @@ public class AppUserController {
     public List<Appointment> getAppUseAppointments(@PathVariable(name="userid") int userId) {
         return repo.getOne(userId).getAppointments();
     }
+
+    @PostMapping(value="appointment")
 
     @GetMapping(value="/user/email/{firstname}")
     public List<AppUser> findAppUserByEmailAddress(@PathVariable(name="firstname") String firstname) {
@@ -74,7 +77,9 @@ public class AppUserController {
 
     @PostMapping(value="/login")
     public AppUserLogin appLogin(@RequestParam(name="username") String username,@RequestParam(name="password") String password) {
-        return loginRepo.findByUsernameAndPassword(username, password);
+       // return loginRepo.findByUsernameAndPassword(username, password);
+
+        return null;
     }
     
 }

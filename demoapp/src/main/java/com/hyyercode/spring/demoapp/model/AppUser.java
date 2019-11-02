@@ -44,9 +44,9 @@ public class AppUser {
     @JsonManagedReference
     private List<Appointment> appointments;
 
-    @OneToMany(mappedBy = "appUser", cascade = CascadeType.ALL, fetch=FetchType.EAGER)
-    @JsonManagedReference
-    private List<AppUserLogin> appUserLogin;
+    //@OneToMany(mappedBy = "appUser", cascade = CascadeType.ALL, fetch=FetchType.EAGER)
+    //@JsonManagedReference
+    //private List<AppUserLogin> appUserLogin;
 
     /**
      * @return the id
